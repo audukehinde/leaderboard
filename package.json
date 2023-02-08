@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "linters": "npx hint . && npm run run-stylelint && npx eslint .",
+    "run-stylelint": "stylelint \"**/*.css\"",
     "build": "webpack",
     "start": "webpack serve --open"
   },
