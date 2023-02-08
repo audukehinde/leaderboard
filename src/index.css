@@ -1,4 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  background-color: rgb(12, 10, 12);
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  border: none !important;
+  gap: 46%;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  display: flex;
+  gap: 70px;
+}
+
+.first-section {
+  width: 60%;
+}
+
+.sec-section {
+  width: 30%;
+}
+
+.score-board-conatiner {
+  border: 2px solid #643939;
+  width: 400px;
+  margin: auto;
+}
+
+.score-board-conatiner .score-board ul li {
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.score-board-conatiner .score-board ul li:nth-child(odd) {
+  background-color: #643939;
+}
+
+input {
+  display: block;
+  padding: 3px;
+  margin-top: 18px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #643939;
+  font-size: 12px;
+  width: 250px;
+}
+
+.btn-sub {
+  margin-top: 18px;
+  flex: 1;
+}
+.sec-section h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #643939;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
 }
