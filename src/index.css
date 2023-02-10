@@ -44,6 +44,8 @@ h1 {
   border: 2px solid #643939;
   width: 400px;
   margin: auto;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .score-board-conatiner .score-board ul li {
@@ -83,4 +85,66 @@ input {
   padding: 10px 14px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .main-container {
+    display: block;
+  }
+
+  .score-board-conatiner {
+    border: 2px solid #643939;
+    width: 380px;
+    height: 400px;
+    overflow-y: scroll;
+    margin: 0 10px;
+  }
+
+  .sec-section {
+    margin-top: 30px;
+  }
+
+  .container-header {
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    border: none !important;
+    width: 152%;
+    margin-bottom: 20px;
+  }
+
+  body {
+    background-color: rgb(12, 10, 12);
+    display: unset;
+    padding: 10px;
+    margin: 0 20px;
+    height: unset;
+    width: auto;
+  }
+
+  h1 {
+    margin: 40px;
+    text-align: center;
+  }
+
+  .sec-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  input {
+    display: block;
+    padding: 6px;
+    margin-top: 18px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #643939;
+    font-size: 12px;
+    width: 350px;
+    color: #fff;
+  }
 }

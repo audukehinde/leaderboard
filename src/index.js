@@ -45,8 +45,3 @@ getDataFromApi();
 refreshScore.addEventListener('click', async () => {
   getDataFromApi();
 });
-
-// window.addEventListener('load' () => {
-//   const localData = JSON.parse(localStorage.getItem('Score')),
-
-// });
