@@ -58,13 +58,14 @@ h1 {
 
 input {
   display: block;
-  padding: 3px;
+  padding: 6px;
   margin-top: 18px;
   background-color: transparent;
   outline: none;
   border: 2px solid #643939;
   font-size: 12px;
   width: 250px;
+  color: #fff;
 }
 
 .btn-sub {
@@ -81,4 +82,5 @@ input {
   color: #fff;
   padding: 10px 14px;
   border-radius: 10px;
+  cursor: pointer;
 }
