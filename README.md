@@ -40,11 +40,20 @@ HTML, CSS, JavaScript
 
 ### Key Features <a name="key-features"></a>
 
-<!-- - **[Add TAsks]**
-- **[Edit TAsks]**
-- **[Mark tasks as completed]**
-- **[Delete a task]**
-- **[Delete all tasks]** -->
+- **[Use webpack]**
+- **[Use Gitflow]**
+- **[Use wireframe for design]**
+- **[Use API to manage game scores]**
+- **[Create a new game id]**
+- **[Add score to the scoreboard]**
+- **[Display scoreboard]**
+
+### Future Features <a name="key-features"></a>
+
+> Features to be added.
+
+- [ ] **[Add more projects]**
+- [ ] **[Add milestones and achievements]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

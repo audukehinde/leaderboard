@@ -14,6 +14,7 @@ formEle.addEventListener('submit', async (e) => {
     user: playerNmae.value,
     score: playerScore.value,
   };
+  localStorage.setItem('Score', JSON.stringify(formData));
   const checkIn = await fetch(gameUrl, {
     method: 'POST',
     headers: {
@@ -28,7 +29,7 @@ formEle.addEventListener('submit', async (e) => {
   e.target.reset();
 });
 
-refreshScore.addEventListener('click', async () => {
+const getDataFromApi = async () => {
   const res = await fetch(gameUrl);
 
   const data = await res.json();
@@ -37,4 +38,15 @@ refreshScore.addEventListener('click', async () => {
     tableData += `<li> ${values.user}: ${values.score}</li>`;
   });
   document.getElementById('table-content').innerHTML = tableData;
+};
+
+getDataFromApi();
+
+refreshScore.addEventListener('click', async () => {
+  getDataFromApi();
 });
+
+// window.addEventListener('load' () => {
+//   const localData = JSON.parse(localStorage.getItem('Score')),
+
+// });

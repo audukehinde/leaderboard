@@ -38,6 +38,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "html-webpack-localstorage-plugin": "^0.1.3",
     "lodash": "^4.17.21"
   }
 }
