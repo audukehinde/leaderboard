@@ -7,5 +7,43 @@
     <script src="https://unpkg.com/lodash@4.17.20"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Leaderboard</h1>
+    <div class="main-container">
+      <div class="first-section">
+        <div class="container-header">
+          <div><h2>Recent Score</h2></div>
+          <button class="btn" type="button" id="refresh">Refresh</button>
+        </div>
+        <div class="score-board-conatiner">
+          <div class="score-board">
+            <ul id="table-content"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec-section">
+        <h2>Add Your Score</h2>
+        <form action="#" id="form-ele">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Add Your Name"
+            class="player-name"
+            required
+          />
+          <input
+            type="number"
+            name=""
+            id=""
+            placeholder="Add Your Score"
+            class="player-score"
+            required
+          />
+          <button class="btn btn-sub" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
