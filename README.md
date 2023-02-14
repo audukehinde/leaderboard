@@ -67,7 +67,7 @@ HTML, CSS, JavaScript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://auducodes-todo-app.netlify.app/) -->
+- [Live Demo Link](https://auducodes-leaderboard.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
